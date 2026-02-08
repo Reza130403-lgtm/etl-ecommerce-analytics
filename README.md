@@ -150,6 +150,17 @@ sql/
 
 ---
 
+## ▶️ Execution Order
+
+1. Seed data
+2. Staging layer
+3. Dimension tables
+4. Fact table
+5. Datamart core (view & partitions)
+6. Datamart cube refresh
+7. KPI tables
+
+
 ## 📌 Notes
 
 This project focuses on **data engineering and analytical data foundations**, rather than visualization.  
