@@ -160,6 +160,14 @@ sql/
 6. Datamart cube refresh
 7. KPI tables
 
+---
+
+## ✅ Data Quality Checks
+- Row count consistency across layers
+- Uniqueness validation for dimension keys
+- Duplicate prevention in fact and datamart tables
+- Freshness tracking via last_update timestamps
+
 
 ## 📌 Notes
 
